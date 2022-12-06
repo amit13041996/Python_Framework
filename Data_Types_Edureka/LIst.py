@@ -53,3 +53,7 @@ print (my_list)
 
 my_list.remove('Aloha') # remove the passed elem. if present else error.
 print (my_list)
+ 
+a = my_list.pop(2) # Deleted element can be retrived.
+print('Popped element:',a)
+print('List remaining:',my_list) 
